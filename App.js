@@ -12,7 +12,7 @@ export default function App() {
   return <AppContainer />;
 }
 const SwitchNavigator = createSwitchNavigator({
-  // WelcomeScreen: { screen: WelcomeScreen },
+  WelcomeScreen: { screen: WelcomeScreen },
   Drawer: { screen: AppDrawerNavigator },
   BootomNavigator: { screen: AppTabNavigator },
 });
